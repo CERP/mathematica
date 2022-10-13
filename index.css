@@ -1,0 +1,65 @@
+:root {
+	--blue: #334960;
+	--grey: #676767;
+	--light-green: rgb(217, 238, 221);
+	--mid-green: rgb(179, 219, 192);
+	--green: rgb(132, 184, 162);
+	--dark-green: #689290;
+	--orange: #efc174;
+	--light-orange: rgb(249, 222, 119);
+	--green3: rgb(237, 237, 175);
+	--icon: #28c4f8;
+	--right: rgb(57, 118, 154);
+	--left: rgb(12, 81, 122);
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: Oswald;
+}
+
+#root {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	flex-direction: column;
+}
+
+.main.panel {
+    background: linear-gradient(to right, var(--left), var(--right));
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: flex-start;
+	min-height: 100vh;
+}
+
+.main .title {
+	display: flex;
+	font-size: 2rem;
+	padding: 2.5rem;
+	color: white;
+	animation: 1s ease-out 0s 1 fadeIn;
+}
+
+.main .subtitle {
+	font-size: 1.25rem;
+}
+
+.logo {
+	padding: 16px;
+}
+
+.continue-button {
+	background-color: white;
+	border-radius: 4px;
+	padding: 8px 4px;
+	text-align: center;
+	text-decoration: none;
+	width: 160px;
+	margin: auto;
+}
