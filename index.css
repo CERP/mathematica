@@ -35,7 +35,7 @@ body {
     justify-content: center;
     color: white;
     align-items: flex-start;
-	min-height: 100vh;
+	min-height: calc(100vh - 78px);
 }
 
 .main .title {
@@ -62,4 +62,9 @@ body {
 	text-decoration: none;
 	width: 220px;
 	margin: auto;
+	color: var(--blue);
+}
+
+.text-center {
+	text-align: center;
 }
